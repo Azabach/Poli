@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="jumbotron">
+        <h1>Instituto Politecnico Nacional</h1>
+        <p><a href="https://www.ipn.mx/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+        <p class="lead">ESIME Culhuacan</p>
+        <p class="lead">Bienvenidos</p>
+
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>
+            Monitoreo de Redes
+        </h2>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Escaneo
+            </button>
+            
+        </div>
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Analisis de redes
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <p>  <a class="dropdown-item" href="#">Archivo</a></p>
+            <a class="dropdown-item" href="#">IP</a>
+        </div>
+    </div>
+   
+    
+</div>
+
+{% endblock %}
